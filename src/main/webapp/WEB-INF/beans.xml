@@ -8,4 +8,10 @@
 
 	<jaxws:endpoint id="flightBooking"
 		implementor="phu.quang.le.ServiceImpl.FlightBookingImpl" address="/FlightBooking" />
+	<jaxws:endpoint id="hotelBooking"
+		implementor="phu.quang.le.ServiceImpl.HotelBookingImpl" address="/HotelBooking" />
+	<jaxws:endpoint id="restaurentBooking"
+		implementor="phu.quang.le.ServiceImpl.RestaurantBookingImpl" address="/RestaurantBooking" />
+	<jaxws:endpoint id="tourBooking"
+		implementor="phu.quang.le.ServiceImpl.TourBookingImpl" address="/TourBooking" />
 </beans>

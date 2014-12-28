@@ -14,5 +14,6 @@ public interface HotelBooking {
 	public ArrayList<Hotel> hotelSearch (Date checkIn, Date checkOut,
 			int nightCount, String city);
 
+	@WebMethod
 	public String HotelInfo (int hotelId);
 }

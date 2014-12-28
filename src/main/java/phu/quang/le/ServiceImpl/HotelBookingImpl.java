@@ -6,7 +6,7 @@ import java.util.Date;
 import phu.quang.le.DataBinding.Hotel;
 import phu.quang.le.Service.HotelBooking;
 
-public class HotelBookImpl implements HotelBooking {
+public class HotelBookingImpl implements HotelBooking {
 	@Override
 	public String HotelInfo (int hotelId) {
 		// TODO Auto-generated method stub
